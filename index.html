@@ -9,7 +9,7 @@
             padding: 0;
         }
         body {
-            background: url("images/bg1.jpg") no-repeat;
+            background: url("https://img.alicdn.com/tfs/TB15N_OB4D1gK0jSZFyXXciOVXa-1920-1080.jpg") no-repeat;
             background-size: cover;
             overflow: hidden;
         }
@@ -187,14 +187,14 @@
 <body>
 <ul>
     <li>
-        <img src="images/img1.JPG" alt="">
+        <img src="https://img.alicdn.com/tfs/TB13InLB9f2gK0jSZFPXXXsopXa-1280-1280.jpg" alt="">
         <span class="text">
             一首首脍炙人口的经典音乐作品展示出一副大美中国的丰富画卷，爱祖国爱家乡!<br/>
              -《中国青年说》
         </span>
     </li>
     <li>
-        <img src="images/img2.JPG" alt="">
+        <img src="https://img.alicdn.com/tfs/TB1KcTMB7Y2gK0jSZFgXXc5OFXa-1080-1080.jpg" alt="">
         <span class="text">
             三九严寒何所惧，<br/>
             一片丹心向阳开。
@@ -202,14 +202,14 @@
         
     </li>
     <li>
-        <img src="images/img3.jpeg" alt="">
+        <img src="https://img.alicdn.com/tfs/TB1RTLNB1L2gK0jSZFmXXc7iXXa-600-338.jpg" alt="">
         <span class="text">
             祝我亲爱的祖国，<br/>
             永永远远朝气蓬勃。
         </span>
     </li>
     <li>
-        <img src="images/img4.jpeg" alt="">
+        <img src="https://img.alicdn.com/tfs/TB1GNrTB8r0gK0jSZFnXXbRRXXa-800-510.jpg" alt="">
         <span class="text">
             红岩精神是刚柔相济，锲而不舍的政治智慧<br/>
             是“出淤泥不染，同流不合污”的政治品格<br/>
@@ -218,14 +218,14 @@
         </span>
     </li>
     <li>
-        <img src="images/img10.jpg" alt="">
+        <img src="https://img.alicdn.com/tfs/TB1qPYKB7P2gK0jSZPxXXacQpXa-720-406.jpg" alt="">
         <span class="text">
             少年强则国强，<br/>
             少年智则国智。
         </span>
     </li>
     <li>
-        <img src="images/img8.jpg" alt="">
+        <img src="https://img.alicdn.com/tfs/TB1OgnGBWL7gK0jSZFBXXXZZpXa-640-493.jpg" alt="">
         <span class="text">
             致敬你们！<br/>
             所有的医护人员<br/>
@@ -234,8 +234,8 @@
     </li>
 </ul>
 
-<img class="flower" src="images/flower2.png">
-<img class="flower2" src="images/flower2.png">
+<img class="flower" src="https://img.alicdn.com/tfs/TB10HfKBVP7gK0jSZFjXXc5aXXa-650-871.jpg">
+<img class="flower2" src="https://img.alicdn.com/tfs/TB10HfKBVP7gK0jSZFjXXc5aXXa-650-871.jpg">
 
 <img src="images/cute1.gif" >
 
@@ -259,24 +259,5 @@
         });
         
     });
-    function toggleSound() {
-        initClick();
-        var music = document.getElementById("vd");//获取ID  
-        if (music.paused) { //判读是否播放  
-            music.paused=false;
-            music.play(); //没有就播放 
-        }    
-    }
-    function initClick() {
-        //模拟click事件
-        //获取btn
-        var body = document.getElementById('vd');
-        //创建event
-        var event = document.createEvent("MouseEvents");
-        //初始化event
-        event.initMouseEvent("click",true,true,document.defaultView,0,0,0,0,0,false,false,false,false,0,null);
-        //触发事件
-        body.dispatchEvent(event);
-    }
 </script>
 </html>
